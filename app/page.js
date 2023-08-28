@@ -36,6 +36,7 @@ export default function Home() {
       console.log("Show UI Error:", err);
     }
   };
+
   const handleDisconnect = async () => {
     try {
       const disconnected = await magic.wallet.disconnect();
