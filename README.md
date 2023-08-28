@@ -2,13 +2,9 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-Create a `.env.local` file to the root directory.
+Open the `.gitignore` file in the root directory and uncomment line 28 so that the `.env.local` file is no longer tracked.
 
-```bash
-touch .env.local
-```
-
-Add your Magic publishable API key to the `env` file.
+Add your Magic publishable API key to the `env.local` file.
 
 ```
 NEXT_PUBLIC_MAGIC_PUBLISHABLE_KEY=pk_live_...
