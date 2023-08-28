@@ -2,7 +2,19 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+Create a `.env.local` file to the root directory.
+
+```bash
+touch .env.local
+```
+
+Add your Magic publishable API key to the `env` file.
+
+```
+NEXT_PUBLIC_MAGIC_PUBLISHABLE_KEY=pk_live_...
+```
+
+Run the development server:
 
 ```bash
 npm run dev
